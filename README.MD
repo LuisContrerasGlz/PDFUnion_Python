@@ -48,6 +48,7 @@ python PDFUnion.py
 ```
 
 Esto generará un archivo con los documentos combinados.
+Archivos de prueba document1.pdf, document2.pdf y document3.pdf en el proyecto, al ejecutar se deben de unir en uno solo como el ejemplo.
 
 ### **4️⃣ Desactivar el Entorno Virtual (opcional)**
 
