@@ -41,6 +41,12 @@ pip install PyPDF2
 
 ### **3️⃣ Ejecutar el Script**
 
+Este proyecto cuenta con dos versiones del script para combinar archivos PDF:
+
+PDFUnion.py: Permite unir archivos PDF mediante una lista manual de archivos.
+
+UnionPDF_glob.py: Usa la biblioteca glob para seleccionar automáticamente todos los archivos PDF dentro de la carpeta data/ sin necesidad de listarlos manualmente.
+
 Para unir los archivos PDF, simplemente ejecuta:
 
 ```bash
@@ -49,6 +55,14 @@ python PDFUnion.py
 
 Esto generará un archivo con los documentos combinados.
 Archivos de prueba document1.pdf, document2.pdf y document3.pdf en el proyecto, al ejecutar se deben de unir en uno solo como el ejemplo.
+
+Ejemplo con UnionPDF_glob.py
+
+```bash
+python UnionPDF_glob.py
+```
+
+Este script buscará automáticamente todos los archivos .pdf dentro de la carpeta data/ y los combinará en un solo archivo.
 
 ### **4️⃣ Desactivar el Entorno Virtual (opcional)**
 
